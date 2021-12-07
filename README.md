@@ -1,2 +1,3 @@
-# openscad-advent-calendar-2022
-Designs for the OpenSCAD Advent Calendar 2022
+# OpenSCAD Advent Calendar Designs
+
+Repo for collecting designs that can be used in upcoming years.
