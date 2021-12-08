@@ -7,4 +7,4 @@ Repo for collecting designs that can be used in upcoming years.
 <img src=https://github.com/openscad/openscad-advent-calendar-designs/blob/main/Eyes/eyes.gif>
 
 # Baubles
-<img src=https://github.com/openscad/openscad-advent-calendar-designs/blob/main/Baubles/Baubles.png>
+<img src=https://github.com/openscad/openscad-advent-calendar-designs/blob/main/Baubles/Baubles.png width=250>
