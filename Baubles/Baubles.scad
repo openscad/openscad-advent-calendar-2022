@@ -86,12 +86,14 @@ module Color(){
   for(i=[0:$children-1])
     color(palette[i%len(palette)])
        children(i);
-    
-  palette=[
+ palette=[
+  "ForestGreen",
   "red",
-  "green",
-  
-  ];
+  "lime",
+  "orange",
+  "orangeRed",
+  "green"
+ ]; 
 
 }
 
