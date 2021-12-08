@@ -21,12 +21,12 @@ if(kugel==1||all)translate([25,0,30])
 if(kugel==4||all)translate([-25,0])
   Nubsi()
   Dual(isect=0,rot=0*4.5,sr=10.4,sr2=9.7,fn=360)
-  Sphere(r=10,rz=10,az=+0,twist=+0.50,a=0.5,centerDia=.5,f=20,f2=20.0,grad=360,grad2=180,fn=360,fny=120);
+  Sphere(r=10,rz=10,az=+0,twist=+0.50,a=0.5,centerDia=.05,f=20,f2=20.0,grad=360,grad2=180,fn=360,fny=120);
   
 if(kugel==3||all)translate([-25,0,30])
   Nubsi()
   Dual(isect=1,rot=-2*4.5,sr=10.2,sr2=9.6,fn=360)
-  Sphere(r=10,rz=10,az=+0,twist=+0.50,a=0.5,centerDia=.5,f=20,f2=20.0,grad=360,grad2=180,fn=360,fny=120);
+  Sphere(r=10,rz=10,az=+0,twist=+0.50,a=0.5,centerDia=.05,f=20,f2=20.0,grad=360,grad2=180,fn=360,fny=120);
     
 if(kugel==5||all) translate([0,0])
   Nubsi(z=8.2)
