@@ -100,7 +100,7 @@ module Color(){
 module Nubsi(z=7.9){//Hanger
   $fn=36;
     children();
-    translate([0,0,-10.3])cylinder(5,d=5);//Base
+    translate([0,0,-z -2.5])cylinder(5,d=5);//Base
     translate([0,0,z])rotate(-90) difference(){
         rotate_extrude()intersection(){
           offset(.5)offset(-.5)offset(-1.5)offset(1.5)union(){
