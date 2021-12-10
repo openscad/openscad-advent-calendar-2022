@@ -64,14 +64,16 @@ if($preview&&!$vpr.x&&!$vpr.y)translate([0,0,-50])color("Ivory")intersection(){
 }
 
 color("silver",alpha=0.45)
-hull()polyhedron(points,[[for(i=[0:len(points)-1])i]]);
+rotate(+45)hull()polyhedron(points,[[for(i=[0:len(points)-1])i]]);
  translate([0,0,1]) sphere(.0001);// forcing CGAL for wireframe view F11
   
 
 if(info&&$preview)union(){
   for(i=[0:len(parameter)-1])
-   let( rot= -90 + (parameter[i][3]?180/parameter[i][3]:0),
-        name= is_undef(name[i])?str("   «—l",i):name[i]
+   let( rot= -45 + (parameter[i][3]?180/parameter[i][3]:0),
+        name= str("   «—",i==0?" top":
+                               i==len(parameter)-1?" base":
+                                                   str(" l",i))
    )
     rotate(rot)
       translate([parameter[i][1], 0, parameter[i][0] ])
@@ -81,23 +83,16 @@ if(info&&$preview)union(){
         }
 
 
-
  pal=[
  "pink",
  "lime",
  "lightblue",
  "maroon",
- "crimson"
+ "crimson",
+ "slategray",
+ "Ivory"
  ];
  
- name=[
-  "  «-top",
-  "  «-l1",
-  "  «-l2",
-  "  «-l3",
-  "  «-base"
- 
- ];
 
 }
 
