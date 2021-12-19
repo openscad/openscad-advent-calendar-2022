@@ -11,3 +11,6 @@ Repo for collecting designs that can be used in upcoming years.
 
 # Diamond
 <img src=https://github.com/openscad/openscad-advent-calendar-designs/blob/main/Diamond/Brilliant.png width=250>
+
+# Tree
+<img src=https://github.com/openscad/openscad-advent-calendar-designs/blob/main/Tree/Tree.png width=250>
