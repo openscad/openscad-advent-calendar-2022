@@ -14,3 +14,6 @@ Repo for collecting designs that can be used in upcoming years.
 
 # Tree
 <img src=https://github.com/openscad/openscad-advent-calendar-designs/blob/main/Tree/Tree.png width=250>
+
+# City
+<img src=https://github.com/openscad/openscad-advent-calendar-designs/blob/main/City/City.png width=250>
