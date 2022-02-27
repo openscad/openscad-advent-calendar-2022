@@ -17,3 +17,6 @@ Repo for collecting designs that can be used in upcoming years.
 
 # City
 <img src=https://github.com/openscad/openscad-advent-calendar-designs/blob/main/City/City.png width=250>
+
+# Curls
+<img src=https://github.com/openscad/openscad-advent-calendar-designs/blob/main/Curls/Curls.png width=250>
