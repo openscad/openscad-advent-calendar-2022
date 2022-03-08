@@ -23,3 +23,6 @@ Repo for collecting designs that can be used in upcoming years.
 
 # Track
 <img src=https://github.com/openscad/openscad-advent-calendar-designs/blob/main/Track/Track.png width=250>
+
+# Twister
+<img src=https://github.com/openscad/openscad-advent-calendar-designs/blob/main/Twister/Twister.png width=250>
