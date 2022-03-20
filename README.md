@@ -26,3 +26,6 @@ Repo for collecting designs that can be used in upcoming years.
 
 # Twister
 <img src=https://github.com/openscad/openscad-advent-calendar-designs/blob/main/Twister/Twister.png width=250>
+
+# Oblong
+<img src=https://github.com/openscad/openscad-advent-calendar-designs/blob/main/Oblong/Oblong6565.png width=250>
