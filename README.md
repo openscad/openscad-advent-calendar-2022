@@ -29,3 +29,6 @@ Repo for collecting designs that can be used in upcoming years.
 
 # Oblong
 <img src=https://github.com/openscad/openscad-advent-calendar-designs/blob/main/Oblong/Oblong6565.png width=250>
+
+# Blocks
+<img src=https://github.com/openscad/openscad-advent-calendar-designs/blob/main/Blocks/Blocks.png width=250>
