@@ -1,7 +1,6 @@
-# OpenSCAD Advent Calendar Designs
+# OpenSCAD Advent Calendar 2022
 
-Repo for collecting designs that can be used in upcoming years.
-
+https://files.openscad.org/85e82a57-d0b1-4add-83ef-5df2920c87d5/%23/index.html
 
 # Eyes
 <img src=https://github.com/openscad/openscad-advent-calendar-designs/blob/main/Eyes/eyes.gif>
