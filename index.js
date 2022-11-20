@@ -9,4 +9,5 @@ setDay( 7, { author: 'Ulrich Bär', license: 'CC0', url3mf: '', urlImg: 'Oblong/
 setDay( 8, { author: 'Ulrich Bär', license: 'CC0', url3mf: 'Track/Track.3mf', urlImg: 'Track/Track.png', urlScad: 'Track/Track.scad' });
 setDay( 9, { author: 'Ulrich Bär', license: 'CC0', url3mf: '', urlImg: 'Tree/Tree.png', urlScad: 'Tree/Tree.scad' });
 setDay(10, { author: 'Ulrich Bär', license: 'CC0', url3mf: 'Twister/Twister.3mf', urlImg: 'Twister/Twister.png', urlScad: 'Twister/Twister.scad' });
-setDay(11, { author: 'Torsten Paul', license: 'CC0', url3mf: '', urlImg: 'Hitomezashi.png', urlScad: 'Hitomezashi.scad' });
+setDay(11, { author: 'Torsten Paul', license: 'CC0', url3mf: '', urlImg: 'Hitomezashi/Hitomezashi.png', urlScad: 'Hitomezashi/Hitomezashi.scad' });
+setDay(12, { author: 'Torsten Paul', license: 'CC0', url3mf: '', urlImg: 'Mandelbrot/Mandelbrot.png', urlScad: 'Mandelbrot/Mandelbrot.scad' });
