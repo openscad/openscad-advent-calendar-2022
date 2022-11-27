@@ -1,13 +1,53 @@
 /**/
-setDay( 1, { author: 'Ulrich Bär', license: 'CC0', url3mf: 'Baubles/Bauble4.3mf', urlImg: 'Baubles/Baubles.png', urlScad: 'Baubles/Baubles.scad' });
-setDay( 2, { author: 'Ulrich Bär', license: 'CC0', url3mf: '', urlImg: 'Blocks/Blocks.png', urlScad: 'Blocks/Blocks.scad' });
-setDay( 3, { author: 'Ulrich Bär', license: 'CC0', url3mf: '', urlImg: 'City/City.png', urlScad: 'City/City.scad' });
-setDay( 4, { author: 'Ulrich Bär', license: 'CC0', url3mf: '', urlImg: 'Curls/Curls.png', urlScad: 'Curls/Curls.scad' });
-setDay( 5, { author: 'Ulrich Bär', license: 'CC0', url3mf: 'Diamond/Diamond-brilliant.3mf', urlImg: 'Diamond/Brilliant.png', urlScad: 'Diamond/Diamond.scad' });
-setDay( 6, { author: 'Ulrich Bär', license: 'CC0', url3mf: '', urlImg: 'Eyes/eyes.gif', urlScad: 'Eyes/ExpressionEyes.scad' });
-setDay( 7, { author: 'Ulrich Bär', license: 'CC0', url3mf: '', urlImg: 'Oblong/Oblong6565.png', urlScad: 'Oblong/Oblong.scad' });
-setDay( 8, { author: 'Ulrich Bär', license: 'CC0', url3mf: 'Track/Track.3mf', urlImg: 'Track/Track.png', urlScad: 'Track/Track.scad' });
-setDay( 9, { author: 'Ulrich Bär', license: 'CC0', url3mf: '', urlImg: 'Tree/Tree.png', urlScad: 'Tree/Tree.scad' });
-setDay(10, { author: 'Ulrich Bär', license: 'CC0', url3mf: 'Twister/Twister.3mf', urlImg: 'Twister/Twister.png', urlScad: 'Twister/Twister.scad' });
-setDay(11, { author: 'Torsten Paul', license: 'CC0', url3mf: '', urlImg: 'Hitomezashi/Hitomezashi.png', urlScad: 'Hitomezashi/Hitomezashi.scad' });
-setDay(12, { author: 'Torsten Paul', license: 'CC0', url3mf: '', urlImg: 'Mandelbrot/Mandelbrot.png', urlScad: 'Mandelbrot/Mandelbrot.scad' });
+setDay( 1, { author: 'Ulrich Bär', license: 'CC0', dir: 'Baubles',
+	urlImg: 'Baubles.png',
+	urlScad: 'Baubles.scad',
+	url3mf: 'Bauble4.3mf'
+});
+setDay( 2, { author: 'Ulrich Bär', license: 'CC0', dir: 'Blocks',
+	urlScad: 'Blocks.scad',
+	urlImg: 'Blocks.png'
+});
+setDay( 3, { author: 'Ulrich Bär', license: 'CC0', dir: 'City',
+	urlScad: 'City.scad',
+	urlImg: 'City.png'
+});
+setDay( 4, { author: 'Ulrich Bär', license: 'CC0', dir: 'Curls',
+	urlScad: 'Curls.scad',
+	urlImg: 'Curls.png'
+});
+setDay( 5, { author: 'Ulrich Bär', license: 'CC0', dir: 'Diamond',
+	urlScad: 'Diamond.scad',
+	urlImg: 'Brilliant.png',
+	url3mf: 'Diamond-brilliant.3mf'
+});
+setDay( 6, { author: 'Ulrich Bär', license: 'CC0', dir: 'Eyes',
+	urlScad: 'ExpressionEyes.scad',
+	urlImg: 'eyes.gif'
+});
+setDay( 7, { author: 'Ulrich Bär', license: 'CC0', dir: 'Oblong',
+	urlScad: 'Oblong/Oblong.scad',
+	urlImg: 'Oblong/Oblong6565.png'
+});
+setDay( 8, { author: 'Ulrich Bär', license: 'CC0', dir: 'Track',
+	urlScad: 'Track.scad',
+	urlImg: 'Track.png',
+	url3mf: 'Track.3mf'
+});
+setDay( 9, { author: 'Ulrich Bär', license: 'CC0', dir: 'Tree',
+	urlScad: 'Tree.scad',
+	urlImg: 'Tree.png'
+});
+setDay(10, { author: 'Ulrich Bär', license: 'CC0', dir: 'Twister',
+	urlScad: 'Twister.scad',
+	urlImg: 'Twister.png',
+	url3mf: 'Twister.3mf'
+});
+setDay(11, { author: 'Torsten Paul', license: 'CC0', dir: 'Hitomezashi',
+	urlScad: 'Hitomezashi/Hitomezashi.scad',
+	urlImg: 'Hitomezashi/Hitomezashi.png'
+});
+setDay(12, { author: 'Torsten Paul', license: 'CC0', dir: 'Mandelbrot',
+	urlScad: 'Mandelbrot/Mandelbrot.scad',
+	urlImg: 'Mandelbrot/Mandelbrot.png'
+});
