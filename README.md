@@ -37,3 +37,6 @@ https://files.openscad.org/85e82a57-d0b1-4add-83ef-5df2920c87d5/%23/index.html
 
 # Mandelbrot set
 <img src=https://github.com/openscad/openscad-advent-calendar-2022/blob/main/Mandelbrot/Mandelbrot.png width=250>
+
+# CubeFrames
+<img src=https://github.com/openscad/openscad-advent-calendar-2022/blob/main/CubeFrames/CubeFrames3.png width=250>
