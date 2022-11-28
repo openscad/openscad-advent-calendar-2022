@@ -47,7 +47,13 @@ setDay(11, { author: 'Torsten Paul', license: 'CC0', dir: 'Hitomezashi',
 	urlScad: 'Hitomezashi/Hitomezashi.scad',
 	urlImg: 'Hitomezashi/Hitomezashi.png'
 });
-setDay(12, { author: 'Torsten Paul', license: 'CC0', dir: 'Mandelbrot',
+
+setDay(12, { author: 'Ulrich Bär', license: 'CC0', dir: 'CubeFrames',
+	urlScad: 'CubeFrames/CubeFrames.scad',
+	urlImg: 'CubeFrames/CubeFrames3.png'
+});
+
+setDay(13, { author: 'Torsten Paul', license: 'CC0', dir: 'Mandelbrot',
 	urlScad: 'Mandelbrot/Mandelbrot.scad',
 	urlImg: 'Mandelbrot/Mandelbrot.png'
 });
