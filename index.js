@@ -65,3 +65,7 @@ setDay(15, { author: 'Ryan A. Colyer', license: 'CC0', dir: 'HappyGrass',
 	urlScad: 'HappyGrass/happy_grass.scad',
 	urlImg: 'HappyGrass/happy_grass.webp'
 });
+setDay(16, { author: 'Ulrich Bär', license: 'CC0', dir: 'Shells',
+	urlScad: 'Shells/Shells.scad',
+	urlImg: 'Shells/Shells.png'
+});
