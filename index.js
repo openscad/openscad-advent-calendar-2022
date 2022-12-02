@@ -30,8 +30,8 @@ setDay( 7, { author: 'Ryan A. Colyer', license: 'CC0', dir: 'BubbleTrap',
 	urlImg: 'bubble_trap.webp'
 });
 setDay( 8, { author: 'Ulrich Bär', license: 'CC0', dir: 'Oblong',
-	urlScad: 'Oblong/Oblong.scad',
-	urlImg: 'Oblong/Oblong6565.png'
+	urlScad: 'Oblong.scad',
+	urlImg: 'Oblong6565.png'
 });
 setDay( 9, { author: 'Ulrich Bär', license: 'CC0', dir: 'Track',
 	urlScad: 'Track.scad',
