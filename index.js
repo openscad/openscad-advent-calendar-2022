@@ -54,7 +54,8 @@ setDay(12, { author: 'Torsten Paul', license: 'CC0', dir: 'Hitomezashi',
 
 setDay(13, { author: 'Ulrich Bär', license: 'CC0', dir: 'CubeFrames',
 	urlScad: 'CubeFrames/CubeFrames.scad',
-	urlImg: 'CubeFrames/CubeFrames3.png'
+	urlImg: 'CubeFrames/CubeFrames3.png',
+	url3mf: 'CubeFrames/CubeFrames.3mf'
 });
 
 setDay(14, { author: 'Torsten Paul', license: 'CC0', dir: 'Mandelbrot',
@@ -67,5 +68,6 @@ setDay(15, { author: 'Ryan A. Colyer', license: 'CC0', dir: 'HappyGrass',
 });
 setDay(16, { author: 'Ulrich Bär', license: 'CC0', dir: 'Shells',
 	urlScad: 'Shells/Shells.scad',
-	urlImg: 'Shells/Shells.png'
+	urlImg: 'Shells/Shells.png',
+	url3mf: 'Shells/Shells.3mf' 
 });
