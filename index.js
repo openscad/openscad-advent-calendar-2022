@@ -26,8 +26,8 @@ setDay( 6, { author: 'Ulrich Bär', license: 'CC0', dir: 'Diamond',
 	url3mf: 'Diamond-brilliant.3mf'
 });
 setDay( 7, { author: 'Ryan A. Colyer', license: 'CC0', dir: 'BubbleTrap',
-	urlScad: 'BubbleTrap/bubble_trap.scad',
-	urlImg: 'BubbleTrap/bubble_trap.webp'
+	urlScad: 'bubble_trap.scad',
+	urlImg: 'bubble_trap.webp'
 });
 setDay( 8, { author: 'Ulrich Bär', license: 'CC0', dir: 'Oblong',
 	urlScad: 'Oblong/Oblong.scad',
@@ -48,26 +48,26 @@ setDay(11, { author: 'Ulrich Bär', license: 'CC0', dir: 'Twister',
 	url3mf: 'Twister.3mf'
 });
 setDay(12, { author: 'Torsten Paul', license: 'CC0', dir: 'Hitomezashi',
-	urlScad: 'Hitomezashi/Hitomezashi.scad',
-	urlImg: 'Hitomezashi/Hitomezashi.png'
+	urlScad: 'Hitomezashi.scad',
+	urlImg: 'Hitomezashi.png'
 });
 
 setDay(13, { author: 'Ulrich Bär', license: 'CC0', dir: 'CubeFrames',
-	urlScad: 'CubeFrames/CubeFrames.scad',
-	urlImg: 'CubeFrames/CubeFrames3.png',
-	url3mf: 'CubeFrames/CubeFrames.3mf'
+	urlScad: 'CubeFrames.scad',
+	urlImg: 'CubeFrames3.png',
+	url3mf: 'CubeFrames.3mf'
 });
 
 setDay(14, { author: 'Torsten Paul', license: 'CC0', dir: 'Mandelbrot',
-	urlScad: 'Mandelbrot/Mandelbrot.scad',
-	urlImg: 'Mandelbrot/Mandelbrot.png'
+	urlScad: 'Mandelbrot.scad',
+	urlImg: 'Mandelbrot.png'
 });
 setDay(15, { author: 'Ryan A. Colyer', license: 'CC0', dir: 'HappyGrass',
-	urlScad: 'HappyGrass/happy_grass.scad',
-	urlImg: 'HappyGrass/happy_grass.webp'
+	urlScad: 'happy_grass.scad',
+	urlImg: 'happy_grass.webp'
 });
 setDay(16, { author: 'Ulrich Bär', license: 'CC0', dir: 'Shells',
-	urlScad: 'Shells/Shells.scad',
-	urlImg: 'Shells/Shells.png',
-	url3mf: 'Shells/Shells.3mf' 
+	urlScad: 'Shells.scad',
+	urlImg: 'Shells.png',
+	url3mf: 'Shells.3mf' 
 });
