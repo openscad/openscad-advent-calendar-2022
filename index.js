@@ -70,3 +70,8 @@ setDay(16, { author: 'Ulrich Bär', license: 'CC0', dir: 'Shells',
 	src: 'Shells.scad',
 	bin: 'Shells.3mf'
 });
+setDay(17, { author: 'Jordan Brown', license: 'CC0', dir: 'Santa-2.5D',
+	img: 'Santa-2.5D.png',
+	src: ['Santa-2.5D.scad', 'openclipart.org-308933-santa-waving-jb.svg'],
+	bin: 'Santa-2.5D.3mf'
+});
