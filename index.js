@@ -55,7 +55,7 @@ setDay(12, { author: 'Torsten Paul', license: 'CC0', dir: 'Hitomezashi',
 setDay(13, { author: 'Ulrich Bär', license: 'CC0', dir: 'CubeFrames',
 	img: 'CubeFrames3.png',
 	src: 'CubeFrames.scad',
-	bin: 'CubeFrames.3mf'
+	bin: ['CubeFrames.3mf','CubeFrames2.3mf','CubeFrames3.3mf','CubeFramesRound.3mf']
 });
 setDay(14, { author: 'Torsten Paul', license: 'CC0', dir: 'Mandelbrot',
 	img: 'Mandelbrot.png',
