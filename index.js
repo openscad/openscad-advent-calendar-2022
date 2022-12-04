@@ -1,39 +1,39 @@
 /**/
-setDay( 1, { author: 'Ulrich Bär', license: 'CC0', dir: 'Baubles',
+setDay(1, { author: 'Ulrich Bär', license: 'CC0', dir: 'Baubles',
 	urlImg: 'Baubles.png',
 	urlScad: 'Baubles.scad',
 	url3mf: 'Bauble4.3mf'
 });
-setDay( 2, { author: 'Ulrich Bär', license: 'CC0', dir: 'Blocks',
+setDay(2, { author: 'Ulrich Bär', license: 'CC0', dir: 'Blocks',
 	urlScad: 'Blocks.scad',
 	urlImg: 'Blocks.png'
 });
-setDay( 3, { author: 'Ulrich Bär', license: 'CC0', dir: 'City',
+setDay(3, { author: 'Ulrich Bär', license: 'CC0', dir: 'City',
 	urlScad: 'City.scad',
 	urlImg: 'City.png'
 });
-setDay( 4, { author: 'Ulrich Bär', license: 'CC0', dir: 'Eyes',
+setDay(4, { author: 'Ulrich Bär', license: 'CC0', dir: 'Eyes',
 	urlScad: 'ExpressionEyes.scad',
 	urlImg: 'eyes.gif'
 });
-setDay( 5, { author: 'Ulrich Bär', license: 'CC0', dir: 'Curls',
+setDay(5, { author: 'Ulrich Bär', license: 'CC0', dir: 'Curls',
 	urlScad: 'Curls.scad',
 	urlImg: 'Curls.png'
 });
-setDay( 6, { author: 'Ulrich Bär', license: 'CC0', dir: 'Diamond',
+setDay(6, { author: 'Ulrich Bär', license: 'CC0', dir: 'Diamond',
 	urlScad: 'Diamond.scad',
 	urlImg: 'Brilliant.png',
 	url3mf: 'Diamond-brilliant.3mf'
 });
-setDay( 7, { author: 'Ryan A. Colyer', license: 'CC0', dir: 'BubbleTrap',
-	urlScad: 'bubble_trap.scad',
-	urlImg: 'bubble_trap.webp'
+setDay(7, { author: 'Ryan A. Colyer', license: 'CC0', dir: 'BubbleTrap',
+	urlScad: 'BubbleTrap/bubble_trap.scad',
+	urlImg: 'BubbleTrap/bubble_trap.webp'
 });
-setDay( 8, { author: 'Ulrich Bär', license: 'CC0', dir: 'Oblong',
-	urlScad: 'Oblong.scad',
-	urlImg: 'Oblong6565.png'
+setDay(8, { author: 'Ulrich Bär', license: 'CC0', dir: 'Oblong',
+	urlScad: 'Oblong/Oblong.scad',
+	urlImg: 'Oblong/Oblong6565.png'
 });
-setDay( 9, { author: 'Ulrich Bär', license: 'CC0', dir: 'Track',
+setDay(9, { author: 'Ulrich Bär', license: 'CC0', dir: 'Track',
 	urlScad: 'Track.scad',
 	urlImg: 'Track.png',
 	url3mf: 'Track.3mf'
