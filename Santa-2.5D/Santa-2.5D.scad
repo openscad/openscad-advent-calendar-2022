@@ -39,10 +39,11 @@
 // This OpenSCAD program is then fairly simple - for each component,
 // by name, I import the component and assign it a height and color.
 //
-// This basic technique can be used to take any 2D 
+// This basic technique can be used to take any 2D image and turn it
+// into a 2.5D model.
 
 // How much to put underneath the entire model
-base = 1;
+base = 0.1;
 // How big each Z step should be
 zstep = 1;
 // Overall height (in Y) of the model
@@ -50,6 +51,7 @@ height = 100;
 
 module stop() {}    // End customizer parameters.
 
+svg = "openclipart.org-308933-santa-waving-jb.svg";
 svgHeight = 100;
 xyscale = height/svgHeight;
 
@@ -77,8 +79,12 @@ parts = [
     [ "nose", 6, "#ffc09d" ],
 ];
 
-scale([xyscale, xyscale, zstep]) for (part = parts) {
-    color(part[2])
-        linear_extrude(height=part[1]+base)
-        import("openclipart.org-308933-santa-waving-jb.svg", id=part[0]);
+scale([xyscale, xyscale, 1]) {
+    color("red") linear_extrude(height=base) import(svg);
+
+    translate([0,0,base]) scale([1,1,zstep]) for (part = parts) {
+        color(part[2])
+            linear_extrude(height=part[1]+base)
+            import(svg, id=part[0]);
+    }
 }
