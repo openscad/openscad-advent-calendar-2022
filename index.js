@@ -23,7 +23,7 @@ setDay(5, { author: 'Ulrich Bär', license: 'CC0', dir: 'Curls',
 setDay(6, { author: 'Ulrich Bär', license: 'CC0', dir: 'Diamond',
 	img: 'Brilliant.png',
 	src: 'Diamond.scad',
-	bin: 'Diamond-brilliant.3mf'
+	bin: ['Diamond-brilliant.3mf','Diamond-Portuguese.3mf','Diamond-RoseCut.3mf','Diamond-SwissCut.3mf']
 });
 setDay(7, { author: 'Ryan A. Colyer', license: 'CC0', dir: 'BubbleTrap',
 	img: 'bubble_trap.webp',
