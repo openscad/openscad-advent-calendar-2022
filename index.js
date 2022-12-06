@@ -33,14 +33,14 @@ setDay(8, { author: 'Ulrich Bär', license: 'CC0', dir: 'Oblong',
 	img: 'Oblong6565.png',
 	src: 'Oblong.scad'
 });
-setDay(9, { author: 'Ulrich Bär', license: 'CC0', dir: 'Track',
+setDay(9, { author: 'Torsten Paul', license: 'CC0', dir: 'Mandelbrot',
+	img: 'Mandelbrot.png',
+	src: 'Mandelbrot.scad'
+});
+setDay(10, { author: 'Ulrich Bär', license: 'CC0', dir: 'Track',
 	img: 'Track.png',
 	src: 'Track.scad',
 	bin: 'Track.3mf'
-});
-setDay(10, { author: 'Ulrich Bär', license: 'CC0', dir: 'Tree',
-	img: 'Tree.png',
-	src: 'Tree.scad'
 });
 setDay(11, { author: 'Ulrich Bär', license: 'CC0', dir: 'Twister',
 	img: 'Twister.png',
@@ -57,21 +57,25 @@ setDay(13, { author: 'Ulrich Bär', license: 'CC0', dir: 'CubeFrames',
 	src: 'CubeFrames.scad',
 	bin: ['CubeFrames.3mf','CubeFrames2.3mf','CubeFrames3.3mf','CubeFramesRound.3mf']
 });
-setDay(14, { author: 'Torsten Paul', license: 'CC0', dir: 'Mandelbrot',
-	img: 'Mandelbrot.png',
-	src: 'Mandelbrot.scad'
-});
-setDay(15, { author: 'Ryan A. Colyer', license: 'CC0', dir: 'HappyGrass',
+setDay(14, { author: 'Ryan A. Colyer', license: 'CC0', dir: 'HappyGrass',
 	img: 'happy_grass.webp',
 	src: 'happy_grass.scad'
 });
-setDay(16, { author: 'Ulrich Bär', license: 'CC0', dir: 'Shells',
+setDay(15, { author: 'Ulrich Bär', license: 'CC0', dir: 'Shells',
 	img: 'Shells.png',
 	src: 'Shells.scad',
 	bin: 'Shells.3mf'
+});
+setDay(16, { author: 'Ulrich Bär', license: 'CC0', dir: 'Tree',
+	img: 'Tree.png',
+	src: 'Tree.scad'
 });
 setDay(17, { author: 'Jordan Brown', license: 'CC0', dir: 'Santa-2.5D',
 	img: 'Santa-2.5D.png',
 	src: ['Santa-2.5D.scad', 'openclipart.org-308933-santa-waving-jb.svg'],
 	bin: 'Santa-2.5D.3mf'
+});
+setDay(18, { author: 'Torsten Paul', license: 'CC0', dir: 'Julia',
+	img: 'Julia.png',
+	src: 'Julia.scad'
 });
