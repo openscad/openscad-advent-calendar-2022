@@ -26,7 +26,7 @@ for (i=[620:360-360/PHI:max]){
   randomc=rands(0,1,4);
   randomc3=concat(randomc[0],randomc[1],randomc[2],max(randomc[3],0.5));
   randomc2=concat(randomc[0],randomc[1],min(1,(1-randomc[0])+(1-randomc[1])),max(randomc[2],0.4));
-    rotate(i)translate(13-12*i/max,0,i/max*h)color(randomc3)sphere(2.0-1*i/max);
+    rotate(i)translate([13-12*i/max,0,i/max*h])color(randomc3)sphere(2.0-1*i/max,$fs=.5);
     
     
 }
