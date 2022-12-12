@@ -52,30 +52,35 @@ setDay(12, { author: 'Torsten Paul', license: 'CC0', dir: 'Hitomezashi',
 	src: 'Hitomezashi.scad',
 	info: 'See this <a href="https://youtu.be/JbfhzlMk2eY">Numberphile</a> video for a nice explanation how the pattern is created.'
 });
-setDay(13, { author: 'Ulrich Bär', license: 'CC0', dir: 'CubeFrames',
-	img: 'CubeFrames3.png',
-	src: 'CubeFrames.scad',
-	bin: ['CubeFrames.3mf','CubeFrames2.3mf','CubeFrames3.3mf','CubeFramesRound.3mf']
+setDay(13, { author: 'Jesse Campbell', license: 'CC0', dir: 'Dice',
+	img: 'Dice.png',
+	src: 'Dice.scad'
 });
-setDay(14, { author: 'Ryan A. Colyer', license: 'CC0', dir: 'HappyGrass',
-	img: 'happy_grass.webp',
-	src: 'happy_grass.scad'
-});
-setDay(15, { author: 'Ulrich Bär', license: 'CC0', dir: 'Shells',
+setDay(14, { author: 'Ulrich Bär', license: 'CC0', dir: 'Shells',
 	img: 'Shells.png',
 	src: 'Shells.scad',
 	bin: 'Shells.3mf'
 });
-setDay(16, { author: 'Ulrich Bär', license: 'CC0', dir: 'Tree',
+setDay(15, { author: 'Ryan A. Colyer', license: 'CC0', dir: 'HappyGrass',
+	img: 'happy_grass.webp',
+	src: 'happy_grass.scad'
+});
+setDay(16, { author: 'Ulrich Bär', license: 'CC0', dir: 'CubeFrames',
+	img: 'CubeFrames3.png',
+	src: 'CubeFrames.scad',
+	bin: ['CubeFrames.3mf','CubeFrames2.3mf','CubeFrames3.3mf','CubeFramesRound.3mf']
+});
+setDay(17, { author: 'Ulrich Bär', license: 'CC0', dir: 'Tree',
 	img: 'Tree.png',
 	src: 'Tree.scad'
-});
-setDay(17, { author: 'Jordan Brown', license: 'CC0', dir: 'Santa-2.5D',
-	img: 'Santa-2.5D.png',
-	src: ['Santa-2.5D.scad', 'openclipart.org-308933-santa-waving-jb.svg'],
-	bin: 'Santa-2.5D.3mf'
 });
 setDay(18, { author: 'Torsten Paul', license: 'CC0', dir: 'Julia',
 	img: 'Julia.png',
 	src: 'Julia.scad'
 });
+setDay(19, { author: 'Jordan Brown', license: 'CC0', dir: 'Santa-2.5D',
+	img: 'Santa-2.5D.png',
+	src: ['Santa-2.5D.scad', 'openclipart.org-308933-santa-waving-jb.svg'],
+	bin: 'Santa-2.5D.3mf'
+});
+
