@@ -75,15 +75,20 @@ setDay(17, { author: 'Ulrich Bär', license: 'CC0', dir: 'CubeFrames',
 	src: 'CubeFrames.scad',
 	bin: ['CubeFrames.3mf','CubeFrames2.3mf','CubeFrames3.3mf','CubeFramesRound.3mf']
 });
-setDay(18, { author: 'Ulrich Bär', license: 'CC0', dir: 'Tree',
-	img: 'Tree.png',
-	src: 'Tree.scad'
+setDay(18, { author: 'Torsten Paul', license: 'CC0', dir: 'Candles',
+	img: 'Candles.webp',
+	src: 'Candles.scad',
+	bin: 'Candles.3mf'
 });
 setDay(19, { author: 'Torsten Paul', license: 'CC0', dir: 'Julia',
 	img: 'Julia.png',
 	src: 'Julia.scad'
 });
-setDay(20, { author: 'Jordan Brown', license: 'CC0', dir: 'Santa-2.5D',
+setDay(20, { author: 'Ulrich Bär', license: 'CC0', dir: 'Tree',
+	img: 'Tree.png',
+	src: 'Tree.scad'
+});
+setDay(21, { author: 'Jordan Brown', license: 'CC0', dir: 'Santa-2.5D',
 	img: 'Santa-2.5D.png',
 	src: ['Santa-2.5D.scad', 'openclipart.org-308933-santa-waving-jb.svg'],
 	bin: 'Santa-2.5D.3mf'
