@@ -1,15 +1,15 @@
 #! /bin/sh
 set -e
 
-OPENSCAD="/home/jordan/openscad/modref+objects/b/openscad"
+OPENSCAD=${OPENSCAD:-openscad}
 
 usage() {
-    echo "Usage: $0 out pattern x,y offsetx,y generations speed" >&2
+    echo "Usage: $0 out pattern x,y offsetx,y generations" >&2
     exit 1
 }
 
 case $# in
-6)  ;;
+5)  ;;
 *)
     usage
     ;;
@@ -20,13 +20,13 @@ pattern=$2
 worldSize=$3
 offset=$4
 generations=$5
-speed=$6
 
-rm -f $out*.png
+mkdir -p png
+rm -f png/$out*.png
 
 "$OPENSCAD" \
-    -o $out.png \
-    --imgsize 500,500 \
+    -o png/$out.png \
+    --imgsize 900,900 \
     --animate $generations \
     --colorscheme DeepOcean \
     -D animate=true \
@@ -35,6 +35,3 @@ rm -f $out*.png
     -D "worldSize=[$worldSize];" \
     -D "offset=[$offset]" \
     Life.scad
-
-magick convert $out*.png -set delay $speed $out.gif
-
