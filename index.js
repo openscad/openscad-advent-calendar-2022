@@ -88,16 +88,16 @@ setDay(20, { author: 'Torsten Paul', license: 'CC0', dir: 'Julia',
 	img: 'Julia.png',
 	src: 'Julia.scad'
 });
-setDay(21, { author: 'Ulrich Bär', license: 'CC0', dir: 'Tree',
+setDay(21, { author: 'Ulrich Bär', license: 'CC0', dir: 'Mollusca',
+	img: 'mollusca.gif',
+	src: 'Mollusca.scad',
+});
+setDay(23, { author: 'Ulrich Bär', license: 'CC0', dir: 'Tree',
 	img: 'Tree.png',
 	src: 'Tree.scad'
 });
-setDay(22, { author: 'Jordan Brown', license: 'CC0', dir: 'Santa-2.5D',
+setDay(24, { author: 'Jordan Brown', license: 'CC0', dir: 'Santa-2.5D',
 	img: 'Santa-2.5D.png',
 	src: ['Santa-2.5D.scad', 'openclipart.org-308933-santa-waving-jb.svg'],
 	bin: 'Santa-2.5D.3mf'
-});
-setDay(23, { author: 'Ulrich Bär', license: 'CC0', dir: 'Mollusca',
-	img: 'mollusca.gif',
-	src: 'Mollusca.scad',
 });
