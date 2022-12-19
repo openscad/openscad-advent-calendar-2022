@@ -97,4 +97,7 @@ setDay(22, { author: 'Jordan Brown', license: 'CC0', dir: 'Santa-2.5D',
 	src: ['Santa-2.5D.scad', 'openclipart.org-308933-santa-waving-jb.svg'],
 	bin: 'Santa-2.5D.3mf'
 });
-
+setDay(23, { author: 'Ulrich Bär', license: 'CC0', dir: 'Mollusca',
+	img: 'mollusca.gif',
+	src: 'Mollusca.scad',
+});
