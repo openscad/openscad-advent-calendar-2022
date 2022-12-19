@@ -6,14 +6,12 @@ $fn=150;
 
 function scene(scenes=10,t=$t)=[for(i=[0:scenes-1])min(max(t*scenes-i,0),1)];
 
-
-for(i=[1:5])color([0.3,0.4,0.7]+[0.5,0.4,0.3]*i/6)C4(s=i*15,rot=390*$t,fn=i+2,
+for(i=[1:5])color([0.3,0.4,0.7]+[0.5,0.4,0.3]*i/6)C4(s=i*15,rot=(270+360)*$t,fn=i+2,
 angleA=min(scene(2,$t)[0]*180*1.1*i,180),
 angleB=max(scene(2,$t)[1]*-180*1.1*i,-180)+180
 );
 
 $vpr=[-180,90,360]*$t;
-
 
 
 module C4(
