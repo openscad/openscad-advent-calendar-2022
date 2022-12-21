@@ -92,6 +92,10 @@ setDay(21, { author: 'Ulrich Bär', license: 'CC0', dir: 'Mollusca',
 	img: 'mollusca.gif',
 	src: 'Mollusca.scad',
 });
+setDay(22, { author: 'Justin Lin, Ryan A. Colyer', license: 'CC BY-NC-SA 4.0', dir: 'Caterpillar',
+	img: 'caterpillar.webp',
+	src: 'caterpillar.scad'
+});
 setDay(23, { author: 'Ulrich Bär', license: 'CC0', dir: 'Tree',
 	img: 'Tree.png',
 	src: 'Tree.scad'
