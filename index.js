@@ -94,7 +94,8 @@ setDay(21, { author: 'Ulrich Bär', license: 'CC0', dir: 'Mollusca',
 });
 setDay(22, { author: 'Justin Lin, Ryan A. Colyer', license: 'CC BY-NC-SA 4.0', dir: 'Caterpillar',
 	img: 'caterpillar.webp',
-	src: 'caterpillar.scad'
+	src: 'caterpillar.scad',
+	info: '<p>Today\'s calendar door is a sad one. We\'d like to commemorate <a href="https://www.ithome.com.tw/caterpillar">Justin Lin</a>, who passed away a while ago. In the OpenSCAD community he is best known for his <a href="https://github.com/JustinSDK">dotSCAD</a> library. His <a href="https://www.thingiverse.com/justinsdk/designs">designs</a> always brought joy and amazement. Thank you, we will miss you.</p><p>The animation is based on his <a href="https://www.thingiverse.com/thing:1479827">Caterpillar, my mascot</a> design on Thingiverse.</p>'
 });
 setDay(23, { author: 'Ulrich Bär', license: 'CC0', dir: 'Tree',
 	img: 'Tree.png',
@@ -103,5 +104,6 @@ setDay(23, { author: 'Ulrich Bär', license: 'CC0', dir: 'Tree',
 setDay(24, { author: 'Jordan Brown', license: 'CC0', dir: 'Santa-2.5D',
 	img: 'Santa-2.5D.png',
 	src: ['Santa-2.5D.scad', 'openclipart.org-308933-santa-waving-jb.svg'],
-	bin: 'Santa-2.5D.3mf'
+	bin: 'Santa-2.5D.3mf',
+	info: 'Note: This design depends on a recently added feature of OpenSCAD for filtered SVG import which is only available in the development snapshot. So for running this script locally, please download the <a href="https://openscad.org/downloads.html#snapshots">latest snapshot</a> version.'
 });
