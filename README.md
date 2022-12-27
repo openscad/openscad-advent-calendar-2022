@@ -1,6 +1,13 @@
 # OpenSCAD Advent Calendar 2022
 
-https://files.openscad.org/85e82a57-d0b1-4add-83ef-5df2920c87d5/%23/index.html
+All scripts except door 22 are licensed CC0.
+
+Exception is the Caterpillar design:
+- Author: Justin Lin, Ryan A. Colyer
+- License: CC BY-NC-SA 4.0
+- The animation is based on the "[Caterpillar, my mascot](https://www.thingiverse.com/thing:1479827)" design on Thingiverse.
+
+<img src="https://github.com/openscad/openscad-advent-calendar-2022/blob/main/index.png">
 
 ## 1. Baubles
 <img src="https://github.com/openscad/openscad-advent-calendar-2022/blob/main/Baubles/Baubles.png" width="250">
@@ -73,4 +80,3 @@ https://files.openscad.org/85e82a57-d0b1-4add-83ef-5df2920c87d5/%23/index.html
 
 ## 24. Santa-2.5D
 <img src="https://github.com/openscad/openscad-advent-calendar-2022/blob/main/Santa-2.5D/Santa-2.5D.png" width="250">
-
